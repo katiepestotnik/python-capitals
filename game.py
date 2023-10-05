@@ -25,7 +25,7 @@ def game_play(states, guess, total, correct, wrong, game_count):
     while(total < len(states)):
         for state in states:
             single_state = state['name']
-            guess=input(f'Guess the capital of {single_state} or type \'quit\' to end game: ').capitalize()
+            guess=input(f'Guess the capital of {single_state} or type \'quit\' to end game: ').title()
             if guess == state['capital']:
                 correct += 1
                 total += 1
