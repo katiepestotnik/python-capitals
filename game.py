@@ -1,18 +1,6 @@
-#from capitals import states
+from capitals import states
 import random
 
-states = [
-{
-    "name": "Alabama",
-    "capital": "Montgomery"
-}, {
-    "name": "Alaska",
-    "capital": "Juneau"
-}, {
-    "name": "Arizona",
-    "capital": "Phoenix"
-}
-]
 #shuffle existing list
 random.shuffle(states)
 print("""

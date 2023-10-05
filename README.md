@@ -1,6 +1,5 @@
-![GA Logo](https://camo.githubusercontent.com/6ce15b81c1f06d716d753a61f5db22375fa684da/68747470733a2f2f67612d646173682e73332e616d617a6f6e6177732e636f6d2f70726f64756374696f6e2f6173736574732f6c6f676f2d39663838616536633963333837313639306533333238306663663535376633332e706e67)
 
-# Let's Learn our State Capitals
+# Learn the state capitals game
 
 We're going to create a game to help us memorize the names of the capitals of all 50 states.
 
@@ -10,7 +9,7 @@ To play the game:
  - There should be running tallies on the number of correct and incorrect answers for each state
  - After getting through all 50 states one time, users should be asked whether or not they want to play again.
 
-### Game Requirements
+### Game Features
 
  - Make sure the states don't appear in alphabetical order in the prompts. This will make the game a bit more challenging for the user.
 
@@ -25,21 +24,7 @@ To play the game:
 
 - Once the user has gone through all 50 states, ask them if they'd like to play again.
 
-## Getting Started
-
- You're given an array of dictionaries that contain each state name and capital.
-
- > **Hint**: For the purposes of developing this program, start with a test array of three dictionaries so you don't have to play through all 50 states each time.
-
-### Potentially Useful Methods
-
-- `print`
-- `input`
-- `for loop`
-- `sorted`
-- `random.shuffle()`
-
-## Bonus!
+## Future enhancements!
 
 - Calculate a overall total score, display a running tally for each prompt
 - If the user plays again, set the order of how the prompts appear to start with the ones they got wrong the most often.
