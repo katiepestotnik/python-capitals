@@ -25,6 +25,7 @@ def game_play(states, guess, total, correct, wrong, game_count):
     while(total < len(states)):
         for state in states:
             single_state = state['name']
+            single_capital = state['capital']
             guess=input(f'Guess the capital of {single_state} or type \'quit\' to end game: ').title()
             if guess == state['capital']:
                 correct += 1
@@ -34,7 +35,7 @@ def game_play(states, guess, total, correct, wrong, game_count):
             else:
                 wrong += 1
                 total += 1
-                print('Nope, wrongo!')
+                print(f'Nope, wrongo! Correct anwer: {single_capital}')
                 print(f'So far you have answered {wrong} incorrectly out of {total} states.')
     if(total == len(states)):
         re_play(guess, total, correct, wrong, play_again, game_count)
